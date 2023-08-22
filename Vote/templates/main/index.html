@@ -1,0 +1,10 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'Worker/style.css' %}">
+<ul>
+    <li>
+        <a href="{% url 'Worker:index' %}">Vote</a>
+    </li>
+    <li>
+        <a href="{% url 'Result:index' %}">Vote Result</a>
+    </li>
+</ul>
